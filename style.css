@@ -14,7 +14,7 @@ body {
 .header {
     display: flex;
     justify-content: space-between;
-    margin: 15px 7.5em;
+    margin: 15px 4em 15px 7.5em;
 }
 
 .logo {
@@ -43,7 +43,7 @@ a:hover {
 .context {
     display: flex;
     justify-content: space-between;
-    margin: 7.5em;
+    margin: 7.5em 4em 7.5em 7.5em;
 }
 
 .text {
