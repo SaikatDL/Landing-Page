@@ -1,4 +1,5 @@
-body{
+body {
+    display: flex;
 }
 .sec1 {
     background-color: #1F2937;
