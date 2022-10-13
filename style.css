@@ -96,4 +96,18 @@ button {
 .container {
     display: flex;
     justify-content: center;
+    gap: 50px;
 }
+
+.info img {
+    height: 200px;
+    width: 200px;
+    border-radius: 8px;
+    border: 5px solid #3882f6;
+}
+
+.info {
+    height: auto;
+    width: 200px;
+}
+
