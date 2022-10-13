@@ -1,5 +1,6 @@
 body {
     display: flex;
+    flex-direction: column;
 }
 .sec1 {
     background-color: #1F2937;
@@ -46,18 +47,18 @@ a:hover {
     margin: 7.5em 4em 7.5em 7.5em;
 }
 
-.text {
+.hero {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
 }
 
-.text .main {
+.hero .main {
     font-size: 48px;
     font-weight: bolder;
 }
 
-.text .secondary {
+.hero .secondary {
     font-size: 18px;
     color: #e5e7eb;
     margin: 5px 0;
@@ -79,4 +80,20 @@ button {
     height: auto;
     width: 500px;
     margin: auto 7em;
+}
+
+.sec2 {
+    text-align: center;
+}
+
+.title {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    margin: 40px auto;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
 }
