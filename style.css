@@ -118,3 +118,30 @@ button {
     color: #263447;
 }
 
+.sec3 {
+    align-items: center;
+    padding: 5em 8em;
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+}
+
+.quotes {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.quote {
+    font-size: 36px;
+    width: 700px;
+    font-style: italic;
+    color: #1F2937;
+    font-weight: 300;
+}
+
+.author {
+    text-align: end;
+    font-weight: bold;
+    font-size: 20px;
+}
