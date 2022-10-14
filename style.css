@@ -88,6 +88,7 @@ button {
 
 .sec2 {
     text-align: center;
+    margin: 5em;
 }
 
 .title {
@@ -138,12 +139,12 @@ button {
     width: 700px;
     font-style: italic;
     color: #1F2937;
-    font-weight: 300;
+    font-weight: light;
 }
 
 .author {
     text-align: end;
-    font-weight: bold;
+    font-weight: normal;
     font-size: 30px;
     padding-right: 20px;
 }
