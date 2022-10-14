@@ -4,7 +4,7 @@ body {
     margin: 0;
     padding: 0;
 }
-.sec1 {
+.sec1, .footer {
     background-color: #1F2937;
     display: flex;
     flex-direction: column;
@@ -143,5 +143,45 @@ button {
 .author {
     text-align: end;
     font-weight: bold;
+    font-size: 30px;
+    padding-right: 20px;
+}
+
+.sec4 {
+    display: flex;
+    justify-content: center;
+}
+
+.cta {
+    display: flex;
+    background-color: #3882f6;
+    justify-content: space-between;
+    margin: 5em;
+    height: auto;
+    width: 800px;
+    padding: 40px 80px;
+    border-radius: 8px;
+}
+
+.call {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.action {
+    font-size: 18px;
+}
+
+.button2 {
+    border: 2px solid #f9faf8;
+    padding: 5px 20px;
+}
+
+.footer {
+    text-align: center;
+    justify-content: center;
+    width: auto;
+    height: 100px;
+    color: #f9faf8;
     font-size: 20px;
 }
