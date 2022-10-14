@@ -3,6 +3,7 @@ body {
     flex-direction: column;
     margin: 0;
     padding: 0;
+    font-family: 'Roboto', sans-serif;
 }
 .sec1, .footer {
     background-color: #1F2937;
